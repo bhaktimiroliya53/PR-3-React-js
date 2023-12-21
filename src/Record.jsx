@@ -22,7 +22,7 @@ function Record({ allrecord, btnclick }) {
                             <div class="card mb-3" style={{ width: "100%", border:"none!important"}} key={item.id}>
                                 <div class="row g-0" >
                                     <div class="col-md-4" >
-                                        <img src={item.img} style={{ width: "100px", height: "100%" , objectFit : "cover" }} class="img-fluid rounded-start"/>
+                                        <img src={item.img} style={{ width: "100px", height: "100%" , objectFit : "cover" }}  class="img-fluid rounded-start"/>
                                     </div>
                                     <div class="col-md-8 p-3">
                                         <div class="card-body">
